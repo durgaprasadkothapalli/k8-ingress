@@ -43,8 +43,8 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-    name: echoserver
-    namespace: echoserver
+    name: app1
+    #namespace: echoserver
     annotations:
       kubernetes.io/ingress.class: alb
       alb.ingress.kubernetes.io/scheme: internet-facing
