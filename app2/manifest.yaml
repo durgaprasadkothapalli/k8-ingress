@@ -28,9 +28,7 @@ spec:
       containers:
       - name: app2
   
-        image: durgaprasadkothapalli/app2
-    
-:v1
+        image: durgaprasadkothapalli/app2:v1
 ---
 kind: Service
 apiVersion: v2
