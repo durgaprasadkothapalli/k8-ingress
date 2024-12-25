@@ -33,7 +33,7 @@ spec:
 :v1
 ---
 kind: Service
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: app2
 spec:
